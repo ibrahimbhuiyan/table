@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(215, 243, 250);
+    max-width: 7000px;
+}
+table,tr {
+    border: 1px;
+    height: 100%;
+    width: 100%;
+}
+.id{
+    background-color: blue;
+    text-align: center;
+    color: red;
+}
+.IB{
+    background-color: aqua;
+    color: red;
+    text-align: center;
+}
+tr:nth-child(even){
+    color: black;
+}
